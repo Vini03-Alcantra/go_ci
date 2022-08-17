@@ -14,10 +14,10 @@ jobs:
       - run:  go  test
       - run:  go  run math.go
 
-      - name: Set up QEMU
+      - name: set up quemu
         uses: docker/setup-qemu-action@v2
 
-      - name: Set up Docker Buildx
+      - name: set up docker buildx
         uses: docker/setup-buildx-action@v2
 
       - name: Build and push
