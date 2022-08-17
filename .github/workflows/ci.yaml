@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:          
           push: true
-          tags: Vini03-Alcantra/go_ci:latest
+          tags: vini03-alcantra/go_ci:latest
